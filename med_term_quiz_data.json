@@ -1,0 +1,178 @@
+[
+  {
+    "prompt": "ADL means ___",
+    "answer": "activities of daily living"
+  },
+  {
+    "prompt": "ad lib means ___",
+    "answer": "as desired"
+  },
+  {
+    "prompt": "A&Ox4 means ___",
+    "answer": "alert and oriented times 4 (person, place, time, situation)"
+  },
+  {
+    "prompt": "AMA means ___",
+    "answer": "against medical advice"
+  },
+  {
+    "prompt": "BM means ___",
+    "answer": "bowel movement"
+  },
+  {
+    "prompt": "BRP means ___",
+    "answer": "bathroom privileges"
+  },
+  {
+    "prompt": "BP means ___",
+    "answer": "blood pressure"
+  },
+  {
+    "prompt": "BSC means ___",
+    "answer": "bedside commode"
+  },
+  {
+    "prompt": "CBC means ___",
+    "answer": "complete blood count"
+  },
+  {
+    "prompt": "c/o means ___",
+    "answer": "complaint of"
+  },
+  {
+    "prompt": "DNR means ___",
+    "answer": "do not resuscitate"
+  },
+  {
+    "prompt": "DOB means ___",
+    "answer": "date of birth"
+  },
+  {
+    "prompt": "Dx means ___",
+    "answer": "diagnosis"
+  },
+  {
+    "prompt": "DZ means ___",
+    "answer": "disease"
+  },
+  {
+    "prompt": "FOB means ___",
+    "answer": "foot of bed"
+  },
+  {
+    "prompt": "HCP means ___",
+    "answer": "healthcare provider"
+  },
+  {
+    "prompt": "HAI means ___",
+    "answer": "hospital acquired infection"
+  },
+  {
+    "prompt": "HOB means ___",
+    "answer": "head of bed"
+  },
+  {
+    "prompt": "H&P means ___",
+    "answer": "history and physical"
+  },
+  {
+    "prompt": "HPI means ___",
+    "answer": "history of present illness"
+  },
+  {
+    "prompt": "HR means ___",
+    "answer": "heart rate"
+  },
+  {
+    "prompt": "I&O means ___",
+    "answer": "intake and output"
+  },
+  {
+    "prompt": "LFT means ___",
+    "answer": "liver function test"
+  },
+  {
+    "prompt": "LOC means ___",
+    "answer": "level of consciousness"
+  },
+  {
+    "prompt": "LOP means ___",
+    "answer": "level of pain"
+  },
+  {
+    "prompt": "MAR means ___",
+    "answer": "medication administration record"
+  },
+  {
+    "prompt": "N/A means ___",
+    "answer": "not applicable"
+  },
+  {
+    "prompt": "NKA means ___",
+    "answer": "no known allergies"
+  },
+  {
+    "prompt": "NKDA means ___",
+    "answer": "no known drug allergies"
+  },
+  {
+    "prompt": "NPO means ___",
+    "answer": "nothing by mouth"
+  },
+  {
+    "prompt": "P means ___",
+    "answer": "pulse"
+  },
+  {
+    "prompt": "PO means ___",
+    "answer": "by mouth"
+  },
+  {
+    "prompt": "PRN means ___",
+    "answer": "as necessary, as needed"
+  },
+  {
+    "prompt": "R means ___",
+    "answer": "respiration"
+  },
+  {
+    "prompt": "RBC means ___",
+    "answer": "red blood cell"
+  },
+  {
+    "prompt": "ROM means ___",
+    "answer": "range of motion"
+  },
+  {
+    "prompt": "Rx means ___",
+    "answer": "prescription"
+  },
+  {
+    "prompt": "STAT means ___",
+    "answer": "immediately, at once"
+  },
+  {
+    "prompt": "T means ___",
+    "answer": "temperature"
+  },
+  {
+    "prompt": "tx means ___",
+    "answer": "treatment"
+  },
+  {
+    "prompt": "UA means ___",
+    "answer": "urinalysis"
+  },
+  {
+    "prompt": "UAP means ___",
+    "answer": "unlicensed assistive personnel"
+  },
+  {
+    "prompt": "VS means ___",
+    "answer": "vital signs"
+  },
+  {
+    "prompt": "WBC means ___",
+    "answer": "white blood cell"
+  }
+]
