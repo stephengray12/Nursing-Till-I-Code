@@ -1,178 +1,143 @@
 [
-  {
-    "prompt": "ADL means ___",
-    "answer": "activities of daily living"
-  },
-  {
-    "prompt": "ad lib means ___",
-    "answer": "as desired"
-  },
-  {
-    "prompt": "A&Ox4 means ___",
-    "answer": "alert and oriented times 4 (person, place, time, situation)"
-  },
-  {
-    "prompt": "AMA means ___",
-    "answer": "against medical advice"
-  },
-  {
-    "prompt": "BM means ___",
-    "answer": "bowel movement"
-  },
-  {
-    "prompt": "BRP means ___",
-    "answer": "bathroom privileges"
-  },
-  {
-    "prompt": "BP means ___",
-    "answer": "blood pressure"
-  },
-  {
-    "prompt": "BSC means ___",
-    "answer": "bedside commode"
-  },
-  {
-    "prompt": "CBC means ___",
-    "answer": "complete blood count"
-  },
-  {
-    "prompt": "c/o means ___",
-    "answer": "complaint of"
-  },
-  {
-    "prompt": "DNR means ___",
-    "answer": "do not resuscitate"
-  },
-  {
-    "prompt": "DOB means ___",
-    "answer": "date of birth"
-  },
-  {
-    "prompt": "Dx means ___",
-    "answer": "diagnosis"
-  },
-  {
-    "prompt": "DZ means ___",
-    "answer": "disease"
-  },
-  {
-    "prompt": "FOB means ___",
-    "answer": "foot of bed"
-  },
-  {
-    "prompt": "HCP means ___",
-    "answer": "healthcare provider"
-  },
-  {
-    "prompt": "HAI means ___",
-    "answer": "hospital acquired infection"
-  },
-  {
-    "prompt": "HOB means ___",
-    "answer": "head of bed"
-  },
-  {
-    "prompt": "H&P means ___",
-    "answer": "history and physical"
-  },
-  {
-    "prompt": "HPI means ___",
-    "answer": "history of present illness"
-  },
-  {
-    "prompt": "HR means ___",
-    "answer": "heart rate"
-  },
-  {
-    "prompt": "I&O means ___",
-    "answer": "intake and output"
-  },
-  {
-    "prompt": "LFT means ___",
-    "answer": "liver function test"
-  },
-  {
-    "prompt": "LOC means ___",
-    "answer": "level of consciousness"
-  },
-  {
-    "prompt": "LOP means ___",
-    "answer": "level of pain"
-  },
-  {
-    "prompt": "MAR means ___",
-    "answer": "medication administration record"
-  },
-  {
-    "prompt": "N/A means ___",
-    "answer": "not applicable"
-  },
-  {
-    "prompt": "NKA means ___",
-    "answer": "no known allergies"
-  },
-  {
-    "prompt": "NKDA means ___",
-    "answer": "no known drug allergies"
-  },
-  {
-    "prompt": "NPO means ___",
-    "answer": "nothing by mouth"
-  },
-  {
-    "prompt": "P means ___",
-    "answer": "pulse"
-  },
-  {
-    "prompt": "PO means ___",
-    "answer": "by mouth"
-  },
-  {
-    "prompt": "PRN means ___",
-    "answer": "as necessary, as needed"
-  },
-  {
-    "prompt": "R means ___",
-    "answer": "respiration"
-  },
-  {
-    "prompt": "RBC means ___",
-    "answer": "red blood cell"
-  },
-  {
-    "prompt": "ROM means ___",
-    "answer": "range of motion"
-  },
-  {
-    "prompt": "Rx means ___",
-    "answer": "prescription"
-  },
-  {
-    "prompt": "STAT means ___",
-    "answer": "immediately, at once"
-  },
-  {
-    "prompt": "T means ___",
-    "answer": "temperature"
-  },
-  {
-    "prompt": "tx means ___",
-    "answer": "treatment"
-  },
-  {
-    "prompt": "UA means ___",
-    "answer": "urinalysis"
-  },
-  {
-    "prompt": "UAP means ___",
-    "answer": "unlicensed assistive personnel"
-  },
-  {
-    "prompt": "VS means ___",
-    "answer": "vital signs"
-  },
-  {
-    "prompt": "WBC means ___",
-    "answer": "white blood cell"
-  }
+  {"prompt": "ADL means ___", "answer": "activities of daily living"},
+  {"prompt": "ad lib means ___", "answer": "as desired"},
+  {"prompt": "A&Ox4 means ___", "answer": "alert and oriented times 4 (person, place, time, situation)"},
+  {"prompt": "AMA means ___", "answer": "against medical advice"},
+  {"prompt": "BM means ___", "answer": "bowel movement"},
+  {"prompt": "BRP means ___", "answer": "bathroom privileges"},
+  {"prompt": "BP means ___", "answer": "blood pressure"},
+  {"prompt": "B/P means ___", "answer": "blood pressure"},
+  {"prompt": "BS means ___", "answer": "blood sugar"},
+  {"prompt": "BSC means ___", "answer": "bedside commode"},
+  {"prompt": "BUN means ___", "answer": "blood urea nitrogen"},
+  {"prompt": "CBC means ___", "answer": "complete blood count"},
+  {"prompt": "c/o means ___", "answer": "complaint of"},
+  {"prompt": "DNR means ___", "answer": "do not resuscitate"},
+  {"prompt": "DOB means ___", "answer": "date of birth"},
+  {"prompt": "Dx means ___", "answer": "diagnosis"},
+  {"prompt": "DZ means ___", "answer": "disease"},
+  {"prompt": "FOB means ___", "answer": "foot of bed"},
+  {"prompt": "HCP means ___", "answer": "healthcare provider"},
+  {"prompt": "HAI means ___", "answer": "hospital acquired infection"},
+  {"prompt": "HOB means ___", "answer": "head of bed"},
+  {"prompt": "H&P means ___", "answer": "history and physical"},
+  {"prompt": "HPI means ___", "answer": "history of present illness"},
+  {"prompt": "HR means ___", "answer": "heart rate"},
+  {"prompt": "I&O means ___", "answer": "intake and output"},
+  {"prompt": "LFT means ___", "answer": "liver function test"},
+  {"prompt": "LOC means ___", "answer": "level of consciousness"},
+  {"prompt": "LOP means ___", "answer": "level of pain"},
+  {"prompt": "MAR means ___", "answer": "medication administration record"},
+  {"prompt": "N/A means ___", "answer": "not applicable"},
+  {"prompt": "NKA means ___", "answer": "no known allergies"},
+  {"prompt": "NKDA means ___", "answer": "no known drug allergies"},
+  {"prompt": "NPO means ___", "answer": "nothing by mouth"},
+  {"prompt": "P means ___", "answer": "pulse"},
+  {"prompt": "PO means ___", "answer": "by mouth"},
+  {"prompt": "PRN means ___", "answer": "as necessary, as needed"},
+  {"prompt": "R means ___", "answer": "respiration"},
+  {"prompt": "RBC means ___", "answer": "red blood cell"},
+  {"prompt": "ROM means ___", "answer": "range of motion"},
+  {"prompt": "Rx means ___", "answer": "prescription"},
+  {"prompt": "STAT means ___", "answer": "immediately, at once"},
+  {"prompt": "T means ___", "answer": "temperature"},
+  {"prompt": "tx means ___", "answer": "treatment"},
+  {"prompt": "UA means ___", "answer": "urinalysis"},
+  {"prompt": "UAP means ___", "answer": "unlicensed assistive personnel"},
+  {"prompt": "VS means ___", "answer": "vital signs"},
+  {"prompt": "V/S means ___", "answer": "vital signs"},
+  {"prompt": "WBC means ___", "answer": "white blood cell"},
+  {"prompt": "a- or an- means ___", "answer": "without"},
+  {"prompt": "ab- means ___", "answer": "away from"},
+  {"prompt": "ad- means ___", "answer": "to, toward, near"},
+  {"prompt": "ante- means ___", "answer": "before (in front of)"},
+  {"prompt": "anti- means ___", "answer": "against"},
+  {"prompt": "auto- means ___", "answer": "self"},
+  {"prompt": "bi- means ___", "answer": "twice, double"},
+  {"prompt": "brady- means ___", "answer": "slow"},
+  {"prompt": "circum- means ___", "answer": "around"},
+  {"prompt": "contra- means ___", "answer": "opposed, against"},
+  {"prompt": "co- means ___", "answer": "with"},
+  {"prompt": "cyan- means ___", "answer": "blue"},
+  {"prompt": "cyst- means ___", "answer": "bag, bladder, sac"},
+  {"prompt": "dys- means ___", "answer": "difficult, painful"},
+  {"prompt": "ex- means ___", "answer": "without, away from"},
+  {"prompt": "extra- means ___", "answer": "outside of"},
+  {"prompt": "hemato- means ___", "answer": "blood"},
+  {"prompt": "hemi- means ___", "answer": "half"},
+  {"prompt": "hydro- means ___", "answer": "water"},
+  {"prompt": "hyper- means ___", "answer": "above, excessive"},
+  {"prompt": "hypo- means ___", "answer": "below, deficient"},
+  {"prompt": "intra- means ___", "answer": "within"},
+  {"prompt": "inter- means ___", "answer": "between"},
+  {"prompt": "leuko- means ___", "answer": "white"},
+  {"prompt": "micro- means ___", "answer": "small"},
+  {"prompt": "mega- or megal- means ___", "answer": "large, great"},
+  {"prompt": "multi- means ___", "answer": "many"},
+  {"prompt": "myo- means ___", "answer": "muscle"},
+  {"prompt": "neo- means ___", "answer": "new"},
+  {"prompt": "nephro- means ___", "answer": "kidney"},
+  {"prompt": "para- means ___", "answer": "beside"},
+  {"prompt": "peri- means ___", "answer": "around"},
+  {"prompt": "pneumo- means ___", "answer": "air, lung"},
+  {"prompt": "poly- means ___", "answer": "much, many"},
+  {"prompt": "post- means ___", "answer": "after"},
+  {"prompt": "pre- means ___", "answer": "before"},
+  {"prompt": "pseudo- means ___", "answer": "false"},
+  {"prompt": "pyo- means ___", "answer": "pus"},
+  {"prompt": "pyro- means ___", "answer": "fever"},
+  {"prompt": "quadra- means ___", "answer": "four"},
+  {"prompt": "retro- means ___", "answer": "behind"},
+  {"prompt": "semi- means ___", "answer": "half"},
+  {"prompt": "sub- means ___", "answer": "under"},
+  {"prompt": "super- means ___", "answer": "above, excess"},
+  {"prompt": "supra- means ___", "answer": "above"},
+  {"prompt": "tachy- means ___", "answer": "fast"},
+  {"prompt": "trans- means ___", "answer": "across, through"},
+  {"prompt": "un- means ___", "answer": "not, without"},
+  {"prompt": "uni- means ___", "answer": "one"},
+  {"prompt": "ultra- means ___", "answer": "excess"},
+  {"prompt": "vaso- means ___", "answer": "vessel"},
+  {"prompt": "-algia means ___", "answer": "pain"},
+  {"prompt": "-cele means ___", "answer": "pouch or hernia"},
+  {"prompt": "-centesis means ___", "answer": "puncture for aspiration"},
+  {"prompt": "-cide means ___", "answer": "destructive, killing"},
+  {"prompt": "-cyte means ___", "answer": "cell"},
+  {"prompt": "-desis means ___", "answer": "surgical fixation"},
+  {"prompt": "-ectomy means ___", "answer": "surgical removal of"},
+  {"prompt": "-emia means ___", "answer": "blood condition"},
+  {"prompt": "-gene means ___", "answer": "origin"},
+  {"prompt": "-gram means ___", "answer": "a tracing, a mark, a record"},
+  {"prompt": "-graphy means ___", "answer": "process of recording"},
+  {"prompt": "-iasis means ___", "answer": "formation, presence of"},
+  {"prompt": "-ism means ___", "answer": "condition of"},
+  {"prompt": "-itis means ___", "answer": "inflammation of"},
+  {"prompt": "-lithiasis means ___", "answer": "presence of stones"},
+  {"prompt": "-lysis means ___", "answer": "disintegration of"},
+  {"prompt": "-malacia means ___", "answer": "softening"},
+  {"prompt": "-megaly means ___", "answer": "enlargement"},
+  {"prompt": "-oma means ___", "answer": "tumor"},
+  {"prompt": "-orrhaphy means ___", "answer": "surgical repair of"},
+  {"prompt": "-oscopy means ___", "answer": "look into with an instrument"},
+  {"prompt": "-osis means ___", "answer": "condition, increase"},
+  {"prompt": "-ostomy means ___", "answer": "to form an opening"},
+  {"prompt": "-otomy means ___", "answer": "to incise"},
+  {"prompt": "-penia means ___", "answer": "abnormal reduction"},
+  {"prompt": "-pexy means ___", "answer": "suspension of, fixation of"},
+  {"prompt": "-phobia means ___", "answer": "fear"},
+  {"prompt": "-philia means ___", "answer": "affinity for"},
+  {"prompt": "-plasty means ___", "answer": "reconstruction, plastic surgery"},
+  {"prompt": "-plegia means ___", "answer": "paralysis"},
+  {"prompt": "-rrhea means ___", "answer": "excessive discharge"},
+  {"prompt": "-uria means ___", "answer": "urine"},
+  {"prompt": "𝑎 means ___", "answer": "before"},
+  {"prompt": "𝑝 means ___", "answer": "after"},
+  {"prompt": "𝑐 means ___", "answer": "with"},
+  {"prompt": "𝑠 means ___", "answer": "without"},
+  {"prompt": "𝑞 means ___", "answer": "every"},
+  {"prompt": "△ means ___", "answer": "change"},
+  {"prompt": "X means ___", "answer": "times"},
+  {"prompt": "= means ___", "answer": "equal to"},
+  {"prompt": "% means ___", "answer": "percent"},
+  {"prompt": "# means ___", "answer": "number, pound"}
 ]
