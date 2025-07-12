@@ -1,4 +1,4 @@
-const dataUrl = 'med_term_quiz_data.json'; // You must host this file in the same folder
+const dataUrl = 'med_term_quiz_data.json'; 
 fetch(dataUrl)
   .then(res => res.json())
   .then(questions => {
@@ -9,7 +9,7 @@ fetch(dataUrl)
       card.className = "quiz-card";
 
       const questionText = document.createElement("p");
-      questionText.textContent = `Q${index + 1}: ${q.prompt}`;
+      questionText.textContent = `Question ${index + 1}: ${q.prompt}`;
       card.appendChild(questionText);
 
       const input = document.createElement("input");
