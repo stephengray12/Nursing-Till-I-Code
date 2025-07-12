@@ -8,22 +8,33 @@
 </head>
 <body>
   <nav class="navbar">
-    <div class="nav-logo">Nursing Guide</div>
-    <ul class="nav-links">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Terminology Quiz</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">Dosage Formulas</a></li>
-       <li><a href="#">Blog</a></li>
-
+    <div class="nav-logo">Surviving Nursing School</div>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="/index.html" id="home-link">Home</a></li>
+      <li><a href="#" id="quiz-link">Terminology Quiz</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="dosage.html">Dosage Formulas</a></li>
+      <li><a href="blog.html">Blog</a></li>
     </ul>
   </nav>
 
   <main>
-    <div id="quiz-container">Loading...</div>
+    <section id="quiz-section" style="display: none;">
+      <div id="quiz-container">Loading...</div>
+    </section>
   </main>
 
+  <footer class="footer">
+    <p>&copy; 2025 Nursing Guide. All rights reserved.</p>
+    <p>
+      <a href="#">Support</a>
+    </p>
+  </footer>
+
   <script src="assets/scripts/main.js"></script>
+
+  </script>
 </body>
 </html>

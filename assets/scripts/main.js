@@ -14,7 +14,6 @@ fetch(dataUrl)
 
       const input = document.createElement("input");
       input.type = "text";
-
       input.placeholder = "Your answer...";
       card.appendChild(input);
 
@@ -49,3 +48,13 @@ fetch(dataUrl)
       container.appendChild(card);
     });
   });
+
+   // Hamburger menu toggle
+ document.getElementById("hamburger").onclick = function () {
+   document.getElementById("nav-links").classList.toggle("active");
+ };
+ // Show quiz when "Terminology Quiz" is clicked
+ document.getElementById("quiz-link").addEventListener("click", function (e) {
+   e.preventDefault();
+   document.getElementById("quiz-section").style.display = "block";
+ });
