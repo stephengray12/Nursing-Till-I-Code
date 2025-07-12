@@ -138,7 +138,7 @@ h2 {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.8);
   color: #e0e0e0;
   border-radius: 8px;
 }
