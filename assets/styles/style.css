@@ -183,6 +183,8 @@ h2 {
   display: block;
 }
 
+
+
 @media (max-width: 768px) {
   .hamburger {
     display: block;
