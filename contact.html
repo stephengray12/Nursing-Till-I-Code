@@ -2,32 +2,46 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Medical Terminology Quiz</title>
+  <title>Contact | Surviving Nursing School</title>
   <link rel="stylesheet" href="assets/styles/style.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
-   <nav class="navbar">
-     <div class="nav-logo">Surviving Nursing School</div>
-     <div class="hamburger" id="hamburger">&#9776;</div>
-     <ul class="nav-links" id="nav-links">
-       <li><a href="/index.html" id="home-link">Home</a></li>
-       <li><a href="about.html">About</a></li>
-       <li><a href="contact.html">Contact</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="dosage.html">Dosage Formulas</a></li>
-       <li class="dropdown">
-    <a href="#">Quizzes ▾</a>
-    <ul class="dropdown-menu">
-     <li><a href="#" id="quiz-link">Terminology Quiz</a></li>
-   <li><a href="dosagequiz.html">Dosage Quiz</a></li>
-
+  <nav class="navbar">
+    <div class="nav-logo">Surviving Nursing School</div>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="/index.html" id="home-link">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="dosage.html">Dosage Formulas</a></li>
+      <li class="dropdown">
+        <a href="#">Quizzes ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="#" id="quiz-link">Terminology Quiz</a></li>
+          <li><a href="dosagequiz.html">Dosage Quiz</a></li>
+        </ul>
+      </li>
     </ul>
-  </li>
-     </ul>
-   </nav>
+  </nav>
 
   <main>
+    <section id="contact-section">
+      <h1>Contact Us</h1>
+      <form id="contact-form" action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
     <section id="quiz-section" style="display: none;">
       <div id="quiz-container">Loading...</div>
     </section>
@@ -41,7 +55,5 @@
   </footer>
 
   <script src="assets/scripts/main.js"></script>
-
-  </script>
 </body>
 </html>
