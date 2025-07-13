@@ -183,6 +183,36 @@ h2 {
   display: block;
 }
 
+/* Container for all quotes */
+.quote-container {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+/* Each quote box */
+.quote-box {
+  background-color: #068fd3;
+  border-left: 6px solid #4caf50;
+  margin-bottom: 2rem;
+  padding: 1.5rem 2rem;
+  font-style: italic;
+  border-radius: 8px;
+  position: relative;
+}
+
+/* Attribution */
+.quote-box cite {
+  display: block;
+  margin-top: 1rem;
+  font-style: normal;
+  font-size: 0.95rem;
+  text-align: right;
+  color: #070606;
+}
+
+
 
 
 @media (max-width: 768px) {
