@@ -1,4 +1,8 @@
-const dataUrl = 'med_term_quiz_data.json';
+// Quiz Script
+let dataUrl = 'med_term_quiz_data.json';
+if (window.location.pathname.includes('dosagequiz')) {
+  dataUrl = 'dosage_quiz.json';
+}
 
 fetch(dataUrl)
   .then(res => res.json())
@@ -76,9 +80,9 @@ document.addEventListener("click", function (e) {
   }
 });
 
-// Show quiz when "Terminology Quiz" is clicked
+// Show quiz section (only used on index.html)
 const quizLink = document.getElementById("quiz-link");
-if (quizLink) {
+if (quizLink && document.getElementById("quiz-section")) {
   quizLink.addEventListener("click", function (e) {
     e.preventDefault();
     document.getElementById("quiz-section").style.display = "block";

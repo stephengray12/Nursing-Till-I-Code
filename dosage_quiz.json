@@ -1,0 +1,402 @@
+[
+  {
+    "prompt": "What does 'NPO' mean?",
+    "answer": "nothing by mouth"
+  },
+  {
+    "prompt": "What does 'PRN' mean?",
+    "answer": "as needed"
+  },
+  {
+    "prompt": "How many mg are in 1 g?",
+    "answer": "1000"
+  },
+  {
+    "prompt": "What does 'ac' mean?",
+    "answer": "before meals"
+  },
+  {
+    "prompt": "What does 'pc' mean?",
+    "answer": "after meals"
+  },
+  {
+    "prompt": "What is the abbreviation for 'before'?",
+    "answer": "\u0101"
+  },
+  {
+    "prompt": "What does 'q.i.d.' mean?",
+    "answer": "four times per day"
+  },
+  {
+    "prompt": "What does 'q.o.d.' mean?",
+    "answer": "every other day"
+  },
+  {
+    "prompt": "What does 'c\u0304' mean?",
+    "answer": "with"
+  },
+  {
+    "prompt": "What does 's\u0304' mean?",
+    "answer": "without"
+  },
+  {
+    "prompt": "What is the abbreviation for 'at bedtime'?",
+    "answer": "hs"
+  },
+  {
+    "prompt": "How many mL are in 1 tsp?",
+    "answer": "5"
+  },
+  {
+    "prompt": "How many tsp are in 1 Tbsp?",
+    "answer": "3"
+  },
+  {
+    "prompt": "How many Tbsp in 1 fl oz?",
+    "answer": "2"
+  },
+  {
+    "prompt": "How many oz are in 1 cup?",
+    "answer": "8"
+  },
+  {
+    "prompt": "What does 'PO' mean?",
+    "answer": "by mouth"
+  },
+  {
+    "prompt": "What does 'IM' mean?",
+    "answer": "intramuscular"
+  },
+  {
+    "prompt": "What does 'IV' mean?",
+    "answer": "intravenous"
+  },
+  {
+    "prompt": "What does 'subcut' mean?",
+    "answer": "subcutaneous"
+  },
+  {
+    "prompt": "What is the abbreviation for 'teaspoon'?",
+    "answer": "tsp"
+  },
+  {
+    "prompt": "What is the abbreviation for 'milliliter'?",
+    "answer": "mL"
+  },
+  {
+    "prompt": "What is the abbreviation for 'gram'?",
+    "answer": "g"
+  },
+  {
+    "prompt": "What is the abbreviation for 'microgram'?",
+    "answer": "mcg"
+  },
+  {
+    "prompt": "What does 'STAT' mean?",
+    "answer": "immediately"
+  },
+  {
+    "prompt": "What is the abbreviation for 'capsule'?",
+    "answer": "cap"
+  },
+  {
+    "prompt": "What is the abbreviation for 'tablet'?",
+    "answer": "tab"
+  },
+  {
+    "prompt": "What is the abbreviation for 'drop'?",
+    "answer": "gtt"
+  },
+  {
+    "prompt": "What does 't.i.d.' mean?",
+    "answer": "three times per day"
+  },
+  {
+    "prompt": "What does 'b.i.d.' mean?",
+    "answer": "two times per day"
+  },
+  {
+    "prompt": "What does 'ad lib' mean?",
+    "answer": "as desired"
+  },
+  {
+    "prompt": "What is the abbreviation for 'with meals'?",
+    "answer": "c\u0304 meals"
+  },
+  {
+    "prompt": "What is the abbreviation for 'hour'?",
+    "answer": "h"
+  },
+  {
+    "prompt": "What does 'q.d.' mean?",
+    "answer": "every day"
+  },
+  {
+    "prompt": "What does 'x' mean in prescriptions?",
+    "answer": "times"
+  },
+  {
+    "prompt": "What is the abbreviation for 'quart'?",
+    "answer": "qt"
+  },
+  {
+    "prompt": "What is the abbreviation for 'liter'?",
+    "answer": "L"
+  },
+  {
+    "prompt": "What does 'gr' stand for?",
+    "answer": "grain"
+  },
+  {
+    "prompt": "How many mL are in 1 fl oz?",
+    "answer": "30"
+  },
+  {
+    "prompt": "What does 'gtt' mean?",
+    "answer": "drop"
+  },
+  {
+    "prompt": "How many fl oz are in 1 qt?",
+    "answer": "32"
+  },
+  {
+    "prompt": "How many mL are in 1 Tbsp?",
+    "answer": "15"
+  },
+  {
+    "prompt": "What does 'mEq' mean?",
+    "answer": "milliequivalent"
+  },
+  {
+    "prompt": "What is the abbreviation for 'fluid ounce'?",
+    "answer": "fl oz"
+  },
+  {
+    "prompt": "What does 'mcg' stand for?",
+    "answer": "microgram"
+  },
+  {
+    "prompt": "What is the abbreviation for 'kilogram'?",
+    "answer": "kg"
+  },
+  {
+    "prompt": "How many grams are in 1 kg?",
+    "answer": "1000"
+  },
+  {
+    "prompt": "What is the abbreviation for 'pound'?",
+    "answer": "lb"
+  },
+  {
+    "prompt": "What does 'tsp' stand for?",
+    "answer": "teaspoon"
+  },
+  {
+    "prompt": "How many grams in 1 mg?",
+    "answer": "0.001"
+  },
+  {
+    "prompt": "What is the abbreviation for 'hour of sleep'?",
+    "answer": "hs"
+  },
+  {
+    "prompt": "What is the abbreviation for 'centimeter'?",
+    "answer": "cm"
+  },
+  {
+    "prompt": "How many centimeters are in 1 meter?",
+    "answer": "100"
+  },
+  {
+    "prompt": "What is the abbreviation for 'foot'?",
+    "answer": "ft"
+  },
+  {
+    "prompt": "How many inches are in 1 foot?",
+    "answer": "12"
+  },
+  {
+    "prompt": "How many cm are in 1 inch?",
+    "answer": "2.5"
+  },
+  {
+    "prompt": "What is the abbreviation for 'inch'?",
+    "answer": "in"
+  },
+  {
+    "prompt": "How many mL in 1 cup?",
+    "answer": "240"
+  },
+  {
+    "prompt": "What does 'q' mean?",
+    "answer": "every"
+  },
+  {
+    "prompt": "What is the abbreviation for 'every day'?",
+    "answer": "q.d."
+  },
+  {
+    "prompt": "What does 'b.i.d.' mean?",
+    "answer": "two times per day"
+  },
+  {
+    "prompt": "What does 't.i.d.' mean?",
+    "answer": "three times per day"
+  },
+  {
+    "prompt": "How many oz are in 1 lb?",
+    "answer": "16"
+  },
+  {
+    "prompt": "How many g in 1 lb?",
+    "answer": "454"
+  },
+  {
+    "prompt": "What is the abbreviation for 'milligram'?",
+    "answer": "mg"
+  },
+  {
+    "prompt": "What is the abbreviation for 'meter'?",
+    "answer": "m"
+  },
+  {
+    "prompt": "What is the abbreviation for 'height'?",
+    "answer": "Ht"
+  },
+  {
+    "prompt": "What is the abbreviation for 'weight'?",
+    "answer": "Wt"
+  },
+  {
+    "prompt": "What does 'tab' stand for?",
+    "answer": "tablet"
+  },
+  {
+    "prompt": "What does 'cap' stand for?",
+    "answer": "capsule"
+  },
+  {
+    "prompt": "How many cups are in 1 quart?",
+    "answer": "4"
+  },
+  {
+    "prompt": "How many pints in 1 quart?",
+    "answer": "2"
+  },
+  {
+    "prompt": "What is the abbreviation for 'quart'?",
+    "answer": "qt"
+  },
+  {
+    "prompt": "What does 'ad lib' mean?",
+    "answer": "as desired"
+  },
+  {
+    "prompt": "What does 'STAT' mean?",
+    "answer": "immediately"
+  },
+  {
+    "prompt": "How many mcg in 1 mg?",
+    "answer": "1000"
+  },
+  {
+    "prompt": "What is the abbreviation for 'milliequivalent'?",
+    "answer": "mEq"
+  },
+  {
+    "prompt": "What does 'g' stand for?",
+    "answer": "gram"
+  },
+  {
+    "prompt": "How many grams in 1 oz?",
+    "answer": "28.35"
+  },
+  {
+    "prompt": "What is the abbreviation for 'fluid ounce'?",
+    "answer": "fl oz"
+  },
+  {
+    "prompt": "How many mL in 1 qt?",
+    "answer": "960"
+  },
+  {
+    "prompt": "What does 's\u0304' mean?",
+    "answer": "without"
+  },
+  {
+    "prompt": "What does 'c\u0304' mean?",
+    "answer": "with"
+  },
+  {
+    "prompt": "What is the abbreviation for 'every other day'?",
+    "answer": "q.o.d."
+  },
+  {
+    "prompt": "What is the abbreviation for 'as needed'?",
+    "answer": "PRN"
+  },
+  {
+    "prompt": "What is the abbreviation for 'by mouth'?",
+    "answer": "PO"
+  },
+  {
+    "prompt": "What is the abbreviation for 'intramuscular'?",
+    "answer": "IM"
+  },
+  {
+    "prompt": "What is the abbreviation for 'intravenous'?",
+    "answer": "IV"
+  },
+  {
+    "prompt": "What is the abbreviation for 'subcutaneous'?",
+    "answer": "subcut"
+  },
+  {
+    "prompt": "How many ounces in 1 pint?",
+    "answer": "16"
+  },
+  {
+    "prompt": "How many pints in 1 gallon?",
+    "answer": "8"
+  },
+  {
+    "prompt": "What does 'mcg' mean?",
+    "answer": "microgram"
+  },
+  {
+    "prompt": "How many gtt in 1 mL?",
+    "answer": "20"
+  },
+  {
+    "prompt": "What is the abbreviation for 'grain'?",
+    "answer": "gr"
+  },
+  {
+    "prompt": "What is the abbreviation for 'drop'?",
+    "answer": "gtt"
+  },
+  {
+    "prompt": "What does 'tsp' mean?",
+    "answer": "teaspoon"
+  },
+  {
+    "prompt": "What does 'Tbsp' mean?",
+    "answer": "tablespoon"
+  },
+  {
+    "prompt": "What does 'oz' mean?",
+    "answer": "ounce"
+  },
+  {
+    "prompt": "How many teaspoons in 1 fl oz?",
+    "answer": "6"
+  },
+  {
+    "prompt": "What does 'lb' stand for?",
+    "answer": "pound"
+  },
+  {
+    "prompt": "What does 'L' stand for?",
+    "answer": "liter"
+  }
+]
