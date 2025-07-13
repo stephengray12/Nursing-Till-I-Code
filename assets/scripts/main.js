@@ -1,4 +1,5 @@
-const dataUrl = 'med_term_quiz_data.json'; 
+const dataUrl = 'med_term_quiz_data.json';
+
 fetch(dataUrl)
   .then(res => res.json())
   .then(questions => {
@@ -49,12 +50,38 @@ fetch(dataUrl)
     });
   });
 
-   // Hamburger menu toggle
- document.getElementById("hamburger").onclick = function () {
-   document.getElementById("nav-links").classList.toggle("active");
- };
- // Show quiz when "Terminology Quiz" is clicked
- document.getElementById("quiz-link").addEventListener("click", function (e) {
-   e.preventDefault();
-   document.getElementById("quiz-section").style.display = "block";
- });
+// === Navigation Handling ===
+const hamburger = document.getElementById("hamburger");
+const navLinks = document.getElementById("nav-links");
+
+// Toggle menu on hamburger click
+hamburger.onclick = function () {
+  navLinks.classList.toggle("active");
+};
+
+// Close menu when clicking a link
+const navItems = navLinks.querySelectorAll("a");
+navItems.forEach(link => {
+  link.addEventListener("click", () => {
+    navLinks.classList.remove("active");
+  });
+});
+
+// Close menu when clicking outside
+document.addEventListener("click", function (e) {
+  const isInsideMenu = navLinks.contains(e.target);
+  const isHamburger = hamburger.contains(e.target);
+  if (!isInsideMenu && !isHamburger) {
+    navLinks.classList.remove("active");
+  }
+});
+
+// Show quiz when "Terminology Quiz" is clicked
+const quizLink = document.getElementById("quiz-link");
+if (quizLink) {
+  quizLink.addEventListener("click", function (e) {
+    e.preventDefault();
+    document.getElementById("quiz-section").style.display = "block";
+    document.getElementById("quiz-section").scrollIntoView({ behavior: "smooth" });
+  });
+}
