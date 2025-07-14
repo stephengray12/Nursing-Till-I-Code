@@ -30,7 +30,8 @@ fetch(dataUrl)
       card.appendChild(feedback);
 
       let tries = 0;
-      button.onclick = () => {
+
+      function handleSubmission() {
         const userAnswer = input.value.trim().toLowerCase();
         const correctAnswer = q.answer.toLowerCase();
         tries++;
@@ -49,7 +50,17 @@ fetch(dataUrl)
           feedback.textContent = `❌ Try again (${5 - tries} tries left)`;
           feedback.className = "wrong";
         }
-      };
+      }
+
+      button.onclick = handleSubmission;
+
+      // 🔑 Add Enter key support
+      input.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" && !input.disabled) {
+          handleSubmission();
+        }
+      });
+
       container.appendChild(card);
     });
   });
@@ -88,6 +99,4 @@ if (quizLink && document.getElementById("quiz-section")) {
     document.getElementById("quiz-section").style.display = "block";
     document.getElementById("quiz-section").scrollIntoView({ behavior: "smooth" });
   });
-
-
 }
