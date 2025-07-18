@@ -2,40 +2,61 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Contact | Surviving Nursing School</title>
+  <title>Medical Terminology Quiz</title>
   <link rel="stylesheet" href="assets/styles/style.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
+  <!-- Navbar -->
   <nav class="navbar">
-  <div class="nav-left">
-    <div class="nav-logo">
-      <span class="nurse">Nursing</span> <span class="code">Till I Code 💉</span>
+    <div class="nav-left">
+      <div class="brand-with-ekg">
+        <div class="nav-logo">
+          <span class="nurse">Nursing</span> <span class="code">'Till I Code 💉</span>
+        </div>
+        <svg class="ekg-inline" viewBox="0 0 650 100" preserveAspectRatio="none">
+          <path d="M0,50 
+                   L50,50 
+                   L60,40 L65,60 L70,20 L75,80 L80,50 
+                   L140,50 
+                   L150,45 L155,55 L160,50 
+                   L220,50 
+                   L230,40 L235,60 L240,20 L245,80 L250,50 
+                   L310,50 
+                   L320,45 L325,55 L330,50 
+                   L390,50 
+                   L400,40 L405,60 L410,20 L415,80 L420,50 
+                   L480,50 L490,50 L500,50 L510,50 L520,50 L530,50 
+                   L650,50"
+                stroke="#ff1744" fill="transparent" stroke-width="6" />
+        </svg>
+      </div>
     </div>
-  </div>
 
-  <div class="hamburger" id="hamburger">&#9776;</div>
+    <div class="hamburger" id="hamburger">&#9776;</div>
 
-  <ul class="nav-links" id="nav-links">
-    <li><a href="/index.html" id="home-link">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    <li><a href="blog.html">Blog</a></li>
-    <li><a href="dosage.html">Dosage Formulas</a></li>
-    <li class="dropdown">
-      <a href="#">Quizzes ▾</a>
-      <ul class="dropdown-menu">
-        <li><a href="#" id="quiz-link">Terminology Quiz</a></li>
-        <li><a href="dosagequiz.html">Dosage Quiz</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="/index.html" id="home-link">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="dosage.html">Dosage Formulas</a></li>
+      <li class="dropdown">
+        <a href="#">Quizzes ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="#" id="quiz-link">Terminology Quiz</a></li>
+          <li><a href="dosagequiz.html">Dosage Quiz</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
 
   <main>
     <section id="quiz-section" style="display: none;">
       <div id="quiz-container">Loading...</div>
     </section>
+
+  
   </main>
 
   <footer class="footer">
