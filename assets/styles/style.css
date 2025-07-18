@@ -1,8 +1,15 @@
+body {
+  background-color: #e0f7f7;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #404b4d;
+  background-color: #040404;
   padding: 12px 24px;
   margin: 10px 0;
   border-radius: 8px;
@@ -10,13 +17,23 @@
   top: 0;
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  flex-wrap: wrap;
+}
+
+/* Brand + EKG block */
+.brand-with-ekg {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .nav-logo {
   font-size: 1.5em;
-  color: #eff3f5;
   font-weight: bold;
   line-height: 1.2;
+  color: #eff3f5;
+  display: flex;
+  gap: 6px;
 }
 
 .nav-logo .nurse {
@@ -24,16 +41,35 @@
 }
 
 .nav-logo .code {
-  color: #ff8a80;
+  color: #25e20c;
 }
 
-.nav-logo .tagline {
-  font-size: 0.75em;
-  font-style: italic;
-  color: #d9f1f4;
-  margin-top: 4px;
+/* EKG */
+.ekg-inline {
+  height: 40px;
+  width: 220px;
 }
 
+.ekg-inline path {
+  stroke-dasharray: 1300;
+  stroke-dashoffset: 1300;
+  animation: ekgAnimate 4s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes ekgAnimate {
+  0% {
+    stroke-dashoffset: 1300;
+  }
+  85% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Nav Links */
 .nav-links {
   list-style: none;
   display: flex;
@@ -51,76 +87,6 @@
   color: #0a90d2;
 }
 
-body {
-  background-color: #e0f7f7;
-  color: #e0e0e0;
-  font-family: Arial, sans-serif;
-  padding: 20px;
-}
-
-h1 {
-  text-align: center;
-  color: #070707;
-  border: #0e0e0e 2px solid;
-  background-color: #111010;
-  height: 180px;
-  font: 60px Arial, sans-serif;
-  text-align: center;
-  background-size: 100% 100%;
-  background-position: left center;
-  background-repeat: no-repeat;
-}
-
-.quiz-card {
-  background-color: #b4cacf;
-  border-radius: 8px;
-  padding: 15px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
-  color: black;
-  font-size: 1.1em;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.correct {
-  color: #00e676;
-}
-
-.wrong {
-  color: #ff5252;
-}
-
-input[type="text"] {
-  padding: 8px;
-  width: 60%;
-  font-size: 1em;
-  background-color: #333;
-  color: white;
-  border: 1px solid #555;
-  border-radius: 4px;
-}
-
-button {
-  padding: 8px 14px;
-  margin-left: 10px;
-  background-color: #03a9f4;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #056ea7;
-  transform: scale(1.05);
-  color: black;
-}
-
-button:disabled {
-  background-color: #555;
-  cursor: not-allowed;
-}
-
 .hamburger {
   display: none;
   font-size: 26px;
@@ -128,52 +94,7 @@ button:disabled {
   cursor: pointer;
 }
 
-.footer {
-  text-align: center;
-  padding: 20px 10px;
-  background-color: #404b4d;
-  color: #ccc;
-  margin-top: 40px;
-  border-radius: 8px;
-  font-size: 0.9em;
-}
-
-.footer a {
-  color: #fcfeff;
-  text-decoration: none;
-  margin: 0 8px;
-}
-
-.footer a:hover {
-  text-decoration: underline;
-}
-
-h2 {
-  color: #fafbfb;
-  margin-top: 20px;
-}
-
-.content {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #0c829d;
-  color: #e0e0e0;
-  border-radius: 8px;
-  color: black;
-}
-
-.content ul {
-  padding: 15px;
-}
-
-.content ul li {
-  margin-bottom: 10px;
-  line-height: 1.6;
-  font-size: 1.1em;
-}
-
-/* Dropdown container */
+/* Dropdown */
 .dropdown {
   position: relative;
 }
@@ -203,7 +124,7 @@ h2 {
   display: block;
 }
 
-/* Container for all quotes */
+/* Quote Styling */
 .quote-container {
   max-width: 800px;
   margin: 4rem auto;
@@ -211,7 +132,6 @@ h2 {
   border-radius: 12px;
 }
 
-/* Each quote box */
 .quote-box {
   background-color: #068fd3;
   border-left: 6px solid #4caf50;
@@ -222,7 +142,6 @@ h2 {
   position: relative;
 }
 
-/* Attribution */
 .quote-box cite {
   display: block;
   margin-top: 1rem;
@@ -232,6 +151,28 @@ h2 {
   color: #070606;
 }
 
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px 10px;
+  background-color: #404b4d;
+  color: #ccc;
+  margin-top: 40px;
+  border-radius: 8px;
+  font-size: 0.9em;
+}
+
+.footer a {
+  color: #fcfeff;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
 @media (max-width: 768px) {
   .hamburger {
     display: block;
