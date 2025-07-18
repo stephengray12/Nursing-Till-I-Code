@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #007c91;
+  background-color: #404b4d;
   padding: 12px 24px;
   margin: 10px 0;
   border-radius: 8px;
@@ -16,6 +16,22 @@
   font-size: 1.5em;
   color: #eff3f5;
   font-weight: bold;
+  line-height: 1.2;
+}
+
+.nav-logo .nurse {
+  color: #0873ca;
+}
+
+.nav-logo .code {
+  color: #ff8a80;
+}
+
+.nav-logo .tagline {
+  font-size: 0.75em;
+  font-style: italic;
+  color: #d9f1f4;
+  margin-top: 4px;
 }
 
 .nav-links {
@@ -32,11 +48,11 @@
 }
 
 .nav-links a:hover {
-  color: #0a0585;
+  color: #0a90d2;
 }
 
 body {
-  background-color: #e0f7f7 ;
+  background-color: #e0f7f7;
   color: #e0e0e0;
   font-family: Arial, sans-serif;
   padding: 20px;
@@ -60,8 +76,8 @@ h1 {
   border-radius: 8px;
   padding: 15px;
   margin-bottom: 20px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.5);
-  color:black;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  color: black;
   font-size: 1.1em;
   transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -115,7 +131,7 @@ button:disabled {
 .footer {
   text-align: center;
   padding: 20px 10px;
-  background-color: #007c91;
+  background-color: #404b4d;
   color: #ccc;
   margin-top: 40px;
   border-radius: 8px;
@@ -216,9 +232,6 @@ h2 {
   color: #070606;
 }
 
-
-
-
 @media (max-width: 768px) {
   .hamburger {
     display: block;
@@ -240,7 +253,7 @@ h2 {
     display: flex;
   }
 
-   .dropdown-menu {
+  .dropdown-menu {
     position: static;
     box-shadow: none;
     background-color: inherit;
@@ -249,5 +262,9 @@ h2 {
   .dropdown:hover .dropdown-menu {
     display: flex;
     flex-direction: column;
+  }
+
+  .nav-logo .tagline {
+    display: none;
   }
 }

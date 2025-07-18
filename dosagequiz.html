@@ -8,24 +8,30 @@
 </head>
 <body>
   <nav class="navbar">
-    <div class="nav-logo">Surviving Nursing School</div>
-    <button class="hamburger" id="hamburger" aria-label="Open navigation">&#9776;</button>
-    <ul class="nav-links" id="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="blog.html">Blog</a></li>
-      <li><a href="dosage.html">Dosage Formulas</a></li>
-      <li class="dropdown">
-        <a href="#">Quizzes <span aria-hidden="true">▾</span></a>
-        <ul class="dropdown-menu">
-          <li><a href="index.html#quiz-section">Terminology Quiz</a></li>
-          <li><a href="dosagequiz.html">Dosage Quiz</a></li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
+  <div class="nav-left">
+    <div class="nav-logo">
+      <span class="nurse">Nursing</span> <span class="code">Till I Code 💉</span>
+    </div>
+  </div>
 
+  <div class="hamburger" id="hamburger">&#9776;</div>
+
+  <ul class="nav-links" id="nav-links">
+    <li><a href="/index.html" id="home-link">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="dosage.html">Dosage Formulas</a></li>
+    <li class="dropdown">
+      <a href="#">Quizzes ▾</a>
+      <ul class="dropdown-menu">
+        <li><a href="#" id="quiz-link">Terminology Quiz</a></li>
+        <li><a href="dosagequiz.html">Dosage Quiz</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  
   <main>
     <section id="quiz-section">
       <div id="quiz-container">Loading...</div>
