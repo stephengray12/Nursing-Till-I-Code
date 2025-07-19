@@ -1,8 +1,9 @@
 body {
-  background-color: #c4f1f1;
-  color: #e0e0e0;
-  font-family: Arial, sans-serif;
-  padding: 20px;
+  background-image: url('../images/healthcare.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .navbar {
@@ -10,6 +11,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #040404;
+  opacity: 0.8;
   padding: 12px 24px;
   margin: 10px 0;
   border-radius: 8px;
@@ -37,11 +39,11 @@ body {
 }
 
 .nav-logo .nurse {
-  color: #0873ca;
+  color: #eff2f4;
 }
 
 .nav-logo .code {
-  color: #25e20c;
+  color: #0cace2;
 }
 
 /* EKG */
@@ -133,8 +135,11 @@ body {
 }
 
 .quote-box {
-  background-color: #068fd3;
-  border-left: 6px solid #4caf50;
+  background-color: #000000;
+  opacity: 0.8;
+  font-size: medium;
+  color: #e0e0e0;
+  border-left: 6px solid #0cace2;
   margin-bottom: 2rem;
   padding: 1.5rem 2rem;
   font-style: italic;
@@ -148,7 +153,7 @@ body {
   font-style: normal;
   font-size: 0.95rem;
   text-align: right;
-  color: #070606;
+  color: #fefefe;
 }
 
 /*dosage.html styles*/
@@ -156,10 +161,11 @@ body {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #0c829d;
+  background-color: #020202;
+  opacity: 0.9;
   color: #e0e0e0;
   border-radius: 8px;
-  color: black;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
 }
 
 .content ul {
@@ -229,6 +235,7 @@ button:disabled {
   text-align: center;
   padding: 20px 10px;
   background-color: #000000;
+  opacity: 0.8;
   color: #ccc;
   margin-top: 40px;
   border-radius: 8px;
