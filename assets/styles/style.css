@@ -298,4 +298,8 @@ button:disabled {
   .nav-logo .tagline {
     display: none;
   }
+
+  .ekg-inline{
+    display: none;
+  }
 }
