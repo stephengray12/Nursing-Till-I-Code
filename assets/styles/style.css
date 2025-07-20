@@ -1,16 +1,19 @@
- body {
+/* === Global === */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
   background-image: url('../images/healthcare.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: center;
-  height: 100%;
   min-height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-
+/* === Navbar === */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -27,7 +30,6 @@
   flex-wrap: wrap;
 }
 
-/* Brand + EKG block */
 .brand-with-ekg {
   display: flex;
   align-items: center;
@@ -51,7 +53,6 @@
   color: #0cace2;
 }
 
-/* EKG */
 .ekg-inline {
   height: 40px;
   width: 220px;
@@ -76,7 +77,7 @@
   }
 }
 
-/* Nav Links */
+/* === Nav Links === */
 .nav-links {
   list-style: none;
   display: flex;
@@ -101,7 +102,7 @@
   cursor: pointer;
 }
 
-/* Dropdown */
+/* === Dropdown Menu === */
 .dropdown {
   position: relative;
 }
@@ -131,7 +132,7 @@
   display: block;
 }
 
-/* Quote Styling */
+/* === Quote Styling === */
 .quote-container {
   max-width: 800px;
   margin: 4rem auto;
@@ -161,29 +162,64 @@
   color: #fefefe;
 }
 
-/*dosage.html styles*/
-.content {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #020202;
-  opacity: 0.9;
-  color: #e0e0e0;
+/* === Dosage Table === */
+.dosage-table {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #ffffff;
 }
 
-.content ul {
-  padding: 15px;
+.dosage-table h2 {
+  margin-top: 2rem;
+  color: #09c3e0;
+  font-size: 1.5rem;
 }
 
-.content ul li {
-  margin-bottom: 10px;
-  line-height: 1.6;
-  font-size: 1.1em;
+.table-wrapper {
+  overflow-x: auto;
+  width: 100%;
+  margin-bottom: 1.5rem;
 }
 
-/*Quiz styles*/
+.dosage-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+.dosage-table th,
+.dosage-table td {
+  border: 1px solid #f7f7f7;
+  padding: 10px;
+  text-align: left;
+  min-width: 100px;
+}
+
+.dosage-table th {
+  background-color: #6d6d6d;
+}
+
+.dosage-table td strong {
+  color: #09c3e0;
+}
+
+.dosage-table ul.abbreviations {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0.5rem;
+}
+
+.dosage-table ul.abbreviations li {
+  padding: 6px 0;
+  font-size: 1rem;
+}
+
+/* === Quiz Styles === */
 .quiz-card {
   background-color: #000000;
   border-radius: 8px;
@@ -234,14 +270,11 @@ button:disabled {
   cursor: not-allowed;
 }
 
-
-/* Footer */
+/* === Footer === */
 .footer {
   text-align: center;
   padding: 20px 10px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  position: relative;
   width: 100%;
   opacity: 0.8;
   color: #ccc;
@@ -249,7 +282,6 @@ button:disabled {
   border-radius: 8px;
   font-size: 0.9em;
   background-color: #040404;
-
 }
 
 .footer a {
@@ -262,8 +294,8 @@ button:disabled {
   text-decoration: underline;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
+/* === Media Queries === */
+@media (max-width: 700px) {
   .hamburger {
     display: block;
   }
@@ -299,7 +331,26 @@ button:disabled {
     display: none;
   }
 
-  .ekg-inline{
+  .ekg-inline {
     display: none;
+  }
+
+  .dosage-table {
+    margin: 1rem 0.5rem;
+    padding: 0.75rem;
+  }
+
+  .dosage-table h2 {
+    font-size: 1.25rem;
+  }
+
+  .dosage-table th,
+  .dosage-table td {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .dosage-table ul.abbreviations li {
+    font-size: 0.95rem;
   }
 }
