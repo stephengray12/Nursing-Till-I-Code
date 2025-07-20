@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Medical Terminology Quiz</title>
-  <link rel="stylesheet" href="assets/styles/style.css" />
+  <link rel="icon" type="image/png" href="assets/images/stethoscope.png" />
+  <title>Nursing 'Till I Code</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/styles/style.css" />
 </head>
 <body>
   <!-- Navbar -->
@@ -12,7 +13,8 @@
     <div class="nav-left">
       <div class="brand-with-ekg">
         <div class="nav-logo">
-          <span class="nurse">Nursing</span> <span class="code">'Till I Code </span>
+          <span class="nurse">Nursing</span>
+          <span class="code">'Till I Code</span>
         </div>
         <svg class="ekg-inline" viewBox="0 0 650 100" preserveAspectRatio="none">
           <path d="M0,50 
@@ -28,13 +30,11 @@
                    L400,40 L405,60 L410,20 L415,80 L420,50 
                    L480,50 L490,50 L500,50 L510,50 L520,50 L530,50 
                    L650,50"
-                stroke="#ff1744" fill="transparent" stroke-width="6" />
+                stroke="#ff1744" fill="none" stroke-width="6" />
         </svg>
       </div>
     </div>
-
     <div class="hamburger" id="hamburger">&#9776;</div>
-
     <ul class="nav-links" id="nav-links">
       <li><a href="/index.html" id="home-link">Home</a></li>
       <li><a href="about.html">About</a></li>
@@ -50,16 +50,11 @@
       </li>
     </ul>
   </nav>
-
   <main>
-    <section id="quiz-section" style="display: none;">
+    <section id="quiz-section" hidden>
       <div id="quiz-container">Loading...</div>
     </section>
-
-   
-
   </main>
-
   <footer class="footer">
     <p>&copy; 2025 Nursing Guide. All rights reserved.</p>
     <p>
@@ -69,7 +64,6 @@
       <a href="#">Helpful Links</a>
     </p>
   </footer>
-
   <script src="assets/scripts/main.js"></script>
 </body>
 </html>

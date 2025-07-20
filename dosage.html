@@ -2,157 +2,167 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Medical Terminology Quiz</title>
-  <link rel="stylesheet" href="assets/styles/style.css" />
+  <link rel="icon" type="image/png" href="assets/images/stethoscope.png" />
+  <title>Nursing 'Till I Code</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/styles/style.css" />
 </head>
 <body>
- <!-- Navbar -->
- <nav class="navbar">
-   <div class="nav-left">
-     <div class="brand-with-ekg">
-       <div class="nav-logo">
-         <span class="nurse">Nursing</span> <span class="code">'Till I Code </span>
-       </div>
-       <svg class="ekg-inline" viewBox="0 0 650 100" preserveAspectRatio="none">
-         <path d="M0,50 
-                  L50,50 
-                  L60,40 L65,60 L70,20 L75,80 L80,50 
-                  L140,50 
-                  L150,45 L155,55 L160,50 
-                  L220,50 
-                  L230,40 L235,60 L240,20 L245,80 L250,50 
-                  L310,50 
-                  L320,45 L325,55 L330,50 
-                  L390,50 
-                  L400,40 L405,60 L410,20 L415,80 L420,50 
-                  L480,50 L490,50 L500,50 L510,50 L520,50 L530,50 
-                  L650,50"
-               stroke="#ff1744" fill="transparent" stroke-width="6" />
-       </svg>
-     </div>
-   </div>
-   <div class="hamburger" id="hamburger">&#9776;</div>
-   <ul class="nav-links" id="nav-links">
-     <li><a href="/index.html" id="home-link">Home</a></li>
-     <li><a href="about.html">About</a></li>
-     <li><a href="contact.html">Contact</a></li>
-     <li><a href="blog.html">Blog</a></li>
-     <li><a href="dosage.html">Dosage Formulas</a></li>
-     <li class="dropdown">
-       <a href="#">Quizzes ▾</a>
-       <ul class="dropdown-menu">
-         <li><a href="#" id="quiz-link">Terminology Quiz</a></li>
-         <li><a href="dosagequiz.html">Dosage Quiz</a></li>
-       </ul>
-     </li>
-   </ul>
- </nav>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <div class="brand-with-ekg">
+        <div class="nav-logo">
+          <span class="nurse">Nursing</span> <span class="code">'Till I Code</span>
+        </div>
+        <svg class="ekg-inline" viewBox="0 0 650 100" preserveAspectRatio="none">
+          <path d="M0,50 
+                   L50,50 
+                   L60,40 L65,60 L70,20 L75,80 L80,50 
+                   L140,50 
+                   L150,45 L155,55 L160,50 
+                   L220,50 
+                   L230,40 L235,60 L240,20 L245,80 L250,50 
+                   L310,50 
+                   L320,45 L325,55 L330,50 
+                   L390,50 
+                   L400,40 L405,60 L410,20 L415,80 L420,50 
+                   L480,50 L490,50 L500,50 L510,50 L520,50 L530,50 
+                   L650,50"
+                stroke="#ff1744" fill="transparent" stroke-width="6" />
+        </svg>
+      </div>
+    </div>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="/index.html" id="home-link">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="dosage.html">Dosage Formulas</a></li>
+      <li class="dropdown">
+        <a href="#">Quizzes ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="#" id="quiz-link">Terminology Quiz</a></li>
+          <li><a href="dosagequiz.html">Dosage Quiz</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
   <main>
     <section id="quiz-section" style="display: none;">
       <div id="quiz-container">Loading...</div>
     </section>
     <section class="content">
-      <h2>Solids</h2>
-      <ul>
-        <li>1 lb = 16 oz</li>
-        <li>1 kg = 2.2 lb = 1000 g</li>
-        <li>1 mg = 1000 mcg</li>
-        <li>1 g = 1000 mg</li>
-      </ul>
-
-      <h2>Liquids</h2>
-      <ul>
-        <li>1 mL = 1 cc</li>
-        <li>1 tsp = 5 mL</li>
-        <li>1 Tbsp = 3 tsp = 15 mL</li>
-        <li>1 fl oz = 30 mL</li>
-        <li>1 L = 1 qt = 1000 mL</li>
-        <li>1 cup = 8 oz</li>
-      </ul>
-
-      <h2>Length</h2>
-      <ul>
-        <li>1 ft = 12 in</li>
-        <li>1 m = 100 cm</li>
-        <li>1 in = 2.5 cm</li>
-      </ul>
-
-      <h2>Common Abbreviations</h2>
-      <ul>
-        <li>cc = cubic centimeter</li>
-        <li>cm = centimeter</li>
-        <li>fl oz = fluid ounce</li>
-        <li>ft = foot</li>
-        <li>g = gram</li>
-        <li>gtt = drop</li>
-        <li>gr = grain</li>
-        <li>in = inch</li>
-        <li>kg = kilogram</li>
-        <li>L = liter</li>
-        <li>lb = pound</li>
-        <li>m = meter</li>
-        <li>mcg = microgram</li>
-        <li>mg = milligram</li>
-        <li>mL = milliliter</li>
-        <li>oz = ounce</li>
-        <li>Tbsp = tablespoon</li>
-        <li>tsp = teaspoon</li>
-      </ul>
-
-      <h2>Time Abbreviations</h2>
-      <ul>
-        <li>ā = before</li>
-        <li>ac = before meals</li>
-        <li>ad lib = as desired</li>
-        <li>b.i.d. = two times per day</li>
-        <li>h or hr = hour</li>
-        <li>hs = hour of sleep (at bedtime)</li>
-        <li>p̄ = after</li>
-        <li>pc = after meals</li>
-        <li>PRN = as needed</li>
-        <li>q = every</li>
-        <li>q.d. = every day (daily)</li>
-        <li>q.i.d. = four times per day</li>
-        <li>q.o.d. = every other day</li>
-        <li>STAT = immediately</li>
-        <li>t.i.d. = three times per day</li>
-      </ul>
-
-      <h2>Miscellaneous</h2>
-      <ul>
-        <li>@ = at</li>
-        <li>c̄ = with</li>
-        <li>Ht = height</li>
-        <li>NPO = nothing by mouth</li>
-        <li>s̄ = without</li>
-        <li>Wt = weight</li>
-        <li>x = times, for</li>
-      </ul>
-
-      <h2>Dosage Forms</h2>
-      <ul>
-        <li>cap = capsule</li>
-        <li>tab = tablet</li>
-      </ul>
-
-      <h2>Routes & Sites</h2>
-      <ul>
-        <li>IM = intramuscular</li>
-        <li>IV = intravenous</li>
-        <li>PO = by mouth</li>
-        <li>subcut = subcutaneous</li>
-      </ul>
+      <article>
+        <h2>Solids</h2>
+        <ul>
+          <li>1 lb = 16 oz</li>
+          <li>1 kg = 2.2 lb = 1000 g</li>
+          <li>1 mg = 1000 mcg</li>
+          <li>1 g = 1000 mg</li>
+        </ul>
+      </article>
+      <article>
+        <h2>Liquids</h2>
+        <ul>
+          <li>1 mL = 1 cc</li>
+          <li>1 tsp = 5 mL</li>
+          <li>1 Tbsp = 3 tsp = 15 mL</li>
+          <li>1 fl oz = 30 mL</li>
+          <li>1 L = 1 qt = 1000 mL</li>
+          <li>1 cup = 8 oz</li>
+        </ul>
+      </article>
+      <article>
+        <h2>Length</h2>
+        <ul>
+          <li>1 ft = 12 in</li>
+          <li>1 m = 100 cm</li>
+          <li>1 in = 2.5 cm</li>
+        </ul>
+      </article>
+      <article>
+        <h2>Common Abbreviations</h2>
+        <ul>
+          <li>cc = cubic centimeter</li>
+          <li>cm = centimeter</li>
+          <li>fl oz = fluid ounce</li>
+          <li>ft = foot</li>
+          <li>g = gram</li>
+          <li>gtt = drop</li>
+          <li>gr = grain</li>
+          <li>in = inch</li>
+          <li>kg = kilogram</li>
+          <li>L = liter</li>
+          <li>lb = pound</li>
+          <li>m = meter</li>
+          <li>mcg = microgram</li>
+          <li>mg = milligram</li>
+          <li>mL = milliliter</li>
+          <li>oz = ounce</li>
+          <li>Tbsp = tablespoon</li>
+          <li>tsp = teaspoon</li>
+        </ul>
+      </article>
+      <article>
+        <h2>Time Abbreviations</h2>
+        <ul>
+          <li>ā = before</li>
+          <li>ac = before meals</li>
+          <li>ad lib = as desired</li>
+          <li>b.i.d. = two times per day</li>
+          <li>h or hr = hour</li>
+          <li>hs = hour of sleep (at bedtime)</li>
+          <li>p̄ = after</li>
+          <li>pc = after meals</li>
+          <li>PRN = as needed</li>
+          <li>q = every</li>
+          <li>q.d. = every day (daily)</li>
+          <li>q.i.d. = four times per day</li>
+          <li>q.o.d. = every other day</li>
+          <li>STAT = immediately</li>
+          <li>t.i.d. = three times per day</li>
+        </ul>
+      </article>
+      <article>
+        <h2>Miscellaneous</h2>
+        <ul>
+          <li>@ = at</li>
+          <li>c̄ = with</li>
+          <li>Ht = height</li>
+          <li>NPO = nothing by mouth</li>
+          <li>s̄ = without</li>
+          <li>Wt = weight</li>
+          <li>x = times, for</li>
+        </ul>
+      </article>
+      <article>
+        <h2>Dosage Forms</h2>
+        <ul>
+          <li>cap = capsule</li>
+          <li>tab = tablet</li>
+        </ul>
+      </article>
+      <article>
+        <h2>Routes & Sites</h2>
+        <ul>
+          <li>IM = intramuscular</li>
+          <li>IV = intravenous</li>
+          <li>PO = by mouth</li>
+          <li>subcut = subcutaneous</li>
+        </ul>
+      </article>
     </section>
   </main>
   <footer class="footer">
     <p>&copy; 2025 Nursing Guide. All rights reserved.</p>
-    <p>
+    <nav>
       <a href="#">Support</a>
       <a href="#">Privacy Policy</a>
       <a href="#">Terms of Service</a>
       <a href="#">Helpful Links</a>
-    </p>
+    </nav>
   </footer>
   <script src="assets/scripts/main.js"></script>
 </body>
