@@ -1,4 +1,4 @@
-/* === Global === */html, body {
+html, body {
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
@@ -10,10 +10,17 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 100vh; /* Change from 100% to 100vh */
+  min-height: 100vh; /* This forces full screen height */
   display: flex;
   flex-direction: column;
 }
+
+main {
+  flex: 1; /* This allows <main> to take up the full available vertical space */
+}
+
+
+
 
 /* === Navbar === */
 .navbar {
