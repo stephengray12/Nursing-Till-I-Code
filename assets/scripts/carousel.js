@@ -15,20 +15,19 @@ function goToSlide(index) {
 
 function updateCarousel() {
   const carousel = document.querySelector('.carousel');
-  const previews = document.querySelectorAll('.preview-thumb');
-
-  // Move carousel
   carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
-
-  // Update preview highlighting
-  previews.forEach((preview, idx) => {
-    if (idx === currentIndex) {
-      preview.classList.add('active');
-    } else {
-      preview.classList.remove('active');
-    }
-  });
 }
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
 
 // Optional: Init preview state on page load
 document.addEventListener('DOMContentLoaded', () => {
