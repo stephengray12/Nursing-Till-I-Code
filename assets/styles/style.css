@@ -382,4 +382,11 @@ button:disabled {
   .dosage-table ul.abbreviations li {
     font-size: 0.95rem;
   }
+
+  #dosage-quiz-page {
+  background-color: #2f2d2d;
+  background-image: none;
+  color: #e0e0e0;
+  padding: 20px;
+}
 }
