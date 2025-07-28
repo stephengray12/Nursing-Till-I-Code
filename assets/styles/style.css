@@ -351,26 +351,6 @@ a:hover {
   text-decoration: none;
 }
 
-/* Optional: Responsive text scaling for About page */
-@media (max-width: 700px) {
-  .content-section h1 {
-    font-size: 1.6rem;
-  }
-
-  .content-section h2 {
-    font-size: 1.2rem;
-  }
-
-  .content-section p,
-  .content-section ul li {
-    font-size: 0.95rem;
-  }
-}
-
-
-
-
-
 
 
 /* === Dosage Table === */
@@ -487,8 +467,8 @@ button:disabled {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background: linear-gradient(to bottom right, #e0f7fa, #ffffff);
+  height: 60vh;
+  background: linear-gradient(to bottom, #9ac5cb, #ffffff);
   padding: 20px;
 }
 
@@ -706,7 +686,21 @@ button:disabled {
     padding: 10px;
     font-size: 16px;
   }
+    .content-section h1 {
+    font-size: 1.6rem;
+  }
+
+  .content-section h2 {
+    font-size: 1.2rem;
+  }
+
+  .content-section p,
+  .content-section ul li {
+    font-size: 0.95rem;
+  }
 }
+
+
 
 @media (max-width: 480px) {
   .content-carousel {
