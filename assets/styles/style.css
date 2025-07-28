@@ -440,17 +440,16 @@ button:disabled {
   }
 
   /* Contact Card */
-  /* Contact Card – Mobile Fix */
+ 
 .contact-card {
   padding: 20px;
   min-height: auto;
   width: 100%;
   max-width: 90%;
   margin: 0 auto;
-  box-sizing: border-box; /* Make sure padding doesn't cause overflow */
+  box-sizing: border-box; 
 }
 
-/* Apply box-sizing to all children */
 .contact-card * {
   box-sizing: border-box;
 }
@@ -463,22 +462,22 @@ button:disabled {
 .contact-card textarea {
   font-size: 1rem;
   padding: 5px;
-  width: 100%;       /* Ensures they don’t overflow */
-  max-width: 100%;   /* Prevents border or padding from pushing it out */
+  width: 100%;       
+  max-width: 100%;  
   border: 1px solid #ccc;
   border-radius: 8px;
   display: block;
 }
 
 .contact-card textarea {
-  resize: vertical; /* Optional: allows manual resizing */
+  resize: vertical; 
   min-height: 120px;
 }
 
 .contact-card button {
   font-size: 1rem;
   padding: 10px 16px;
-  width: 100%; /* Optional: makes button span the full width */
+  width: 100%; 
   border: none;
   border-radius: 8px;
   background-color: #3498db;
