@@ -1,19 +1,36 @@
-let currentSlide = 0;
+let currentIndex = 0;
 
-  function moveCarousel(direction) {
-    const carousel = document.querySelector(".carousel");
-    const items = document.querySelectorAll(".carousel-item");
-    const totalItems = items.length;
+function moveCarousel(direction) {
+  const carousel = document.querySelector('.carousel');
+  const totalSlides = document.querySelectorAll('.carousel-item').length;
 
-    currentSlide += direction;
+  currentIndex = (currentIndex + direction + totalSlides) % totalSlides;
+  updateCarousel();
+}
 
-    // wrap around
-    if (currentSlide < 0) {
-      currentSlide = totalItems - 1;
-    } else if (currentSlide >= totalItems) {
-      currentSlide = 0;
+function goToSlide(index) {
+  currentIndex = index;
+  updateCarousel();
+}
+
+function updateCarousel() {
+  const carousel = document.querySelector('.carousel');
+  const previews = document.querySelectorAll('.preview-thumb');
+
+  // Move carousel
+  carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+
+  // Update preview highlighting
+  previews.forEach((preview, idx) => {
+    if (idx === currentIndex) {
+      preview.classList.add('active');
+    } else {
+      preview.classList.remove('active');
     }
+  });
+}
 
-    const offset = -currentSlide * 100;
-    carousel.style.transform = `translateX(${offset}%)`;
-  }
+// Optional: Init preview state on page load
+document.addEventListener('DOMContentLoaded', () => {
+  updateCarousel();
+});

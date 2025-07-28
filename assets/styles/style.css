@@ -290,6 +290,54 @@ main {
   box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
 }
 
+.carousel-previews {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.preview-thumb {
+  cursor: pointer;
+  text-align: center;
+  width: 80px;
+  transition: transform 0.3s, border 0.3s;
+  border-radius: 6px;
+}
+
+.preview-thumb img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.preview-thumb p {
+  font-size: 0.8rem;
+  margin-top: 5px;
+  color: #333;
+}
+
+.preview-thumb:hover {
+  transform: scale(1.1);
+}
+
+.preview-thumb.active {
+  border: 2px solid #0cace2;
+  box-shadow: 0 0 10px rgba(12, 172, 226, 0.6);
+  
+}
+
+.content-carousel img {
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  height: 300px;
+  object-fit: contain;
+  width: 100%;
+}
+
+
 
 
 
