@@ -6,7 +6,9 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: #1e1e1e;
+  background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+
+
  
 }
 
@@ -233,11 +235,6 @@ main {
   font-size: 1rem;
 }
 
-/*===Dosage Quiz Page===*/
-#dosage-quiz-page {
-  color: white;
-  padding: 20px;
-}
 
 /* === Quiz Styles === */
 .quiz-card {
@@ -248,6 +245,7 @@ main {
   color: rgb(255, 254, 254);
   font-size: 1.1em;
   transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #1e1e1e;
 }
 
 .correct {
