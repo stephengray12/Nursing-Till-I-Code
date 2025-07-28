@@ -324,8 +324,8 @@ button:disabled {
 .contact-card input,
 .contact-card textarea {
   width: 100%;
-  padding: 12px;
-  margin: 10px 0;
+  padding: 10px;
+  margin: 5px 0;
   border: 1px solid #ccc;
   border-radius: 8px;
   font-size: 16px;
