@@ -55,6 +55,22 @@
     <section id="quiz-section" style="display: none;">
       <div id="quiz-container">Loading...</div>
     </section>
+       <!-- Contact Card Popup -->
+        <div class="contact-page">
+  <div class="contact-card">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" name="user_name" placeholder="Name" required />
+      <input type="email" name="user_email" placeholder="Email" required />
+      <textarea name="message" placeholder="Reason for Contact" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</div>
+
+
+   <!--End of Contact Card Popup -->
+
   </main>
   <footer class="footer">
     <p>&copy; 2025 Nursing Guide. All rights reserved.</p>
@@ -65,6 +81,8 @@
       <a href="#">Helpful Links</a>
     </p>
   </footer>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script src="assets/scripts/contact.js"></script>
   <script src="assets/scripts/main.js"></script>
 </body>
 </html>

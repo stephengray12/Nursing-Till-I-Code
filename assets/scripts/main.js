@@ -99,4 +99,6 @@ if (quizLink && document.getElementById("quiz-section")) {
     document.getElementById("quiz-section").style.display = "block";
     document.getElementById("quiz-section").scrollIntoView({ behavior: "smooth" });
   });
+ 
+
 }
