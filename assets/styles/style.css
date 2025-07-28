@@ -279,7 +279,7 @@ button {
 }
 
 button:hover {
-  background-color: #056ea7;
+  background-color: #373838;
   transform: scale(1.05);
   color: black;
 }
