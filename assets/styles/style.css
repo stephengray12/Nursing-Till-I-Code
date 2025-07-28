@@ -229,9 +229,18 @@ main {
   font-size: 1rem;
 }
 
+/*===Dosage Quiz Page===*/
+#dosage-quiz-page {
+  background-color: #2f2d2d;
+  background-image: none;
+  color: #e0e0e0;
+  padding: 20px;
+}
+
 /* === Quiz Styles === */
 .quiz-card {
-  background-color: #000000;
+  background-color: #1d1c1c;
+  background-image: none;
   border-radius: 8px;
   padding: 15px;
   margin-bottom: 20px;
@@ -279,6 +288,16 @@ button:disabled {
   background-color: #555;
   cursor: not-allowed;
 }
+
+/* === blog html styles === */
+#blog-page {
+  background-color: #2f2d2d;
+  background-image: none;
+  color: #e0e0e0;
+  padding: 20px;
+}
+
+
 
 /* === Footer === */
 .footer {
