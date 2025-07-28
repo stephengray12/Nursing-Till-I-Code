@@ -349,6 +349,7 @@ button:disabled {
   .dropdown:hover .dropdown-menu {
     display: flex;
     flex-direction: column;
+    background-color: #1e1e1e;
   }
 
   .nav-logo .tagline {
