@@ -337,6 +337,7 @@ button:disabled {
 
   .nav-links.active {
     display: flex;
+    background-color: #1e1e1e;
   }
 
   .dropdown-menu {
