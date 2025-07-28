@@ -18,18 +18,6 @@ function updateCarousel() {
   carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
 }
 
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-// Optional: Init preview state on page load
 document.addEventListener('DOMContentLoaded', () => {
   updateCarousel();
 });
