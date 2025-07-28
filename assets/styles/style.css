@@ -440,29 +440,58 @@ button:disabled {
   }
 
   /* Contact Card */
-   .contact-card {
-    padding: 20px;
-    min-height: auto; /* Let it shrink on small screens */
-    width: 100%;
-    max-width: 90%;
-    margin: 0 auto; /* Center the card */
-  }
+  /* Contact Card – Mobile Fix */
+.contact-card {
+  padding: 20px;
+  min-height: auto;
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  box-sizing: border-box; /* Make sure padding doesn't cause overflow */
+}
 
-  .contact-card h2 {
-    font-size: 1.5rem;
-  }
+/* Apply box-sizing to all children */
+.contact-card * {
+  box-sizing: border-box;
+}
 
-  .contact-card input,
-  .contact-card textarea {
-    font-size: 1rem;
-    padding: 10px;
-    
-  }
+.contact-card h2 {
+  font-size: 1.5rem;
+}
 
-  .contact-card button {
-    font-size: 1rem;
-    padding: 10px 16px;
-  }
+.contact-card input,
+.contact-card textarea {
+  font-size: 1rem;
+  padding: 10px;
+  width: 100%;       /* Ensures they don’t overflow */
+  max-width: 100%;   /* Prevents border or padding from pushing it out */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: block;
+}
+
+.contact-card textarea {
+  resize: vertical; /* Optional: allows manual resizing */
+  min-height: 120px;
+}
+
+.contact-card button {
+  font-size: 1rem;
+  padding: 10px 16px;
+  width: 100%; /* Optional: makes button span the full width */
+  border: none;
+  border-radius: 8px;
+  background-color: #3498db;
+  color: white;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
 }
 
 
