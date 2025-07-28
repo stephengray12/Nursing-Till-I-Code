@@ -462,7 +462,7 @@ button:disabled {
 .contact-card input,
 .contact-card textarea {
   font-size: 1rem;
-  padding: 10px;
+  padding: 5px;
   width: 100%;       /* Ensures they don’t overflow */
   max-width: 100%;   /* Prevents border or padding from pushing it out */
   border: 1px solid #ccc;
