@@ -7,6 +7,10 @@ html, body {
   padding: 0;
   height: 100%;
   background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+  font-family: Arial, sans-serif;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
 
 
  
@@ -108,7 +112,7 @@ main {
 }
 
 .nav-links a:hover {
-  color: #0a90d2;
+  color: #09e7f7;
 }
 
 .hamburger {
@@ -157,8 +161,7 @@ main {
 }
 
 .quote-box {
-  background-color: #000000;
-  opacity: 0.8;
+  background-color: rgba(34, 34, 34, 0.7);
   font-size: medium;
   color: white;
   border-left: 6px solid #0cace2;
@@ -177,6 +180,118 @@ main {
   text-align: right;
   color: white;
 }
+
+/* === index.html main content === */
+.content-section{
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.content-section h1 {
+  
+  color: #09c3e0;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* === content-carousel styles index.html === */
+.content-carousel {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+}
+
+.content-carousel h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000;
+  font-size: 1.5rem;
+
+}
+
+.content-carousel p {
+  text-align: center;
+  color: #000000;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+}
+
+.carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.carousel-item img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.carousel-item h1 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #000000;
+  text-align: center;
+
+}
+
+/* Carousel Buttons */
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgb(8, 243, 239);
+  border: 2px solid transparent; /* Prevents shifting when hover border is added */
+  padding: 12px;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 2;
+  transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+.carousel-button.prev {
+  left: 10px;
+}
+
+.carousel-button.next {
+  right: 10px;
+}
+
+.carousel-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid white;
+}
+
+/* Optional: Custom focus style */
+.carousel-button:focus {
+  outline: none;
+}
+
+.carousel-button:focus-visible {
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
+}
+
+
+
 
 /* === Dosage Table === */
 .dosage-table {
@@ -375,6 +490,7 @@ button:disabled {
 
 .footer a:hover {
   text-decoration: underline;
+  color: #09c3e0;
 }
 
 /* === Media Queries === */
@@ -485,12 +601,67 @@ button:disabled {
   margin-top: 10px;
 }
 
+/* === content-carousel styles index.html === */
+ .content-carousel {
+    padding: 15px;
+  }
 
+  .content-carousel h2 {
+    font-size: 1.3rem;
+  }
 
+  .content-carousel p {
+    font-size: 0.95rem;
+  }
 
+  .carousel-item h1 {
+    font-size: 1rem;
+  }
 
+  .carousel-item img {
+    max-height: 220px;
+  }
 
+  .carousel-button {
+    padding: 10px;
+    font-size: 16px;
+  }
+}
 
+@media (max-width: 480px) {
+  .content-carousel {
+    padding: 10px;
+    border-radius: 6px;
+  }
+
+  .content-carousel h2 {
+    font-size: 1.1rem;
+  }
+
+  .content-carousel p {
+    font-size: 0.9rem;
+  }
+
+  .carousel-item h1 {
+    font-size: 0.95rem;
+  }
+
+  .carousel-item img {
+    max-height: 180px;
+  }
+
+  .carousel-button {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .carousel-button.prev {
+    left: 5px;
+  }
+
+  .carousel-button.next {
+    right: 5px;
+  }
 }
 
 
