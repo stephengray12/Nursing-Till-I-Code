@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (form) {
     form.addEventListener("submit", function (e) {
       e.preventDefault();
-      emailjs.sendForm("service_m9xog97", "template_t6vuljk", this)
+      emailjs.sendForm("service_m9xog97", "template_nj0foam", this)
         .then(() => {
           alert("Message sent successfully!");
           form.reset();
