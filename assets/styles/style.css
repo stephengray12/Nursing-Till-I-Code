@@ -443,6 +443,9 @@ button:disabled {
    .contact-card {
     padding: 20px;
     min-height: auto; /* Let it shrink on small screens */
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto; /* Center the card */
   }
 
   .contact-card h2 {
